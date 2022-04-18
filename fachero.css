@@ -204,7 +204,7 @@ div > #kiruto {
     right: 10%;
     position: absolute;
 }
-li a, :hover {
+li a, :hover, :after {
     color:#f4fefd;
     text-decoration: none;
 
@@ -325,4 +325,90 @@ li a, :hover {
         margin-right: auto;
         margin-left:auto;
     }
+    #start{
+        border-radius: 50px;
+        width: 50%;
+        font-size: 21px;
+    
+    }
+    #confir{
+    
+        border-radius: 50px;
+        width: 50%;
+        font-size: 21px;
+        
+    }
+    input{
+        border: 4px solid #52057B ;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 10px;
+        background-color: #52057B;
+    }
+    #partida{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        background: #892CDC;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    
+    }
+    #mostrar {
+        width: 10%;
+    }
+    .botone{
+        border: 4px solid #BC6FF1 ;
+        border-radius: 10px;
+        background-color: #BC6FF1;
+        color:#f4fefd;
+        font-size: 12px;
+        margin: 10px;
+        width: 20%;
+    }
+    #juga{
+        font-size: 12px;
+    }
+    #tit{
+        margin-bottom: auto;
+        margin-top: auto;
+        left: 20%;
+    }
+    #lugar{
+        width: 90%;
+        color:#0c0b0b;
+        background-color: #f4fefd;
+        border: 4px solid #f4fefd ;
+        border-radius: 10px;
+        font-size: 12px;
+    
+    }
+    .boton{
+        border: 4px solid #BC6FF1 ;
+        border-radius: 10px;
+        background-color: #BC6FF1;
+        color:#f4fefd;
+        font-size:12px;
+        margin: 10px;
+    }
+    #liste{
+        border: 4px solid #52057B ;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 10px;
+        background-color: #52057B;
+    }
+    #juego {
+        width: 90%;
+        height: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 210px;
+    }
+    
+    
   } 
