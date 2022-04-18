@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugar gratis al desconfio online</title>
+    <link href="/css/" rel="stylesheet" type="text/css">
+    <link href="/fachero.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="cabecera">
+        <header>
+            <h1 id="tit">Jugar desconfio offline XD</h1>
+                <div>
+                    <img src="/kiruto logo.png" id="kiruto">
+                </div>
+            
+        </header>
+</div>
+    
+    <div id="juego">
+    <div id="partida">
+    <input type="button" class="boton" id="f5" value="Volver a Jugar" onclick="location.reload()"/>
+    <input type="button" class="boton" id="start" value="comenzar" onclick="iniciar(start.value)">
+    <h3 id="ganar"></h3>
+    <input type="button" class="boton" id="confir" value="siguiente" onclick="siguiente('si')">
+
+   <div id="comenzar">
+    <h4 id="juga"></h4>
+    <div>
+    <input type="number"  id="lugar" placeholder="¿Que carta jugaras?" >
+    <input type="button" class="boton"  id="boton" value="tirar" onclick="mov(lugar.value)">
+    <input type="button" class="boton"  id="desconfio" value="desconfio" onclick="desconfio(desconfio.value)">
+
+    <div id="mostar">
+        <input type="button" class="botone"  id="basto" value="basto" onclick="palos(basto.value)">
+        <input type="button" class="botone"  id="oro" value="oro" onclick="palos(oro.value)">
+        <input type="button" class="botone"  id="espada" value="espada" onclick="palos(espada.value)">
+        <input type="button" class="botone"  id="copas" value="copas" onclick="palos(copas.value)">
+    </div>  
+</div>
+
+    <p id="cartas que tengo"></p>
+    <h2 id="sub"></h2>
+
+    <ol id="lista">
+    </ol>
+
+</div>
+</div>
+    </div>
+    <script src="desonfio-js.js"></script>
+      
+    <footer>
+        <b id="derechos">© Derechos de autor reservados por Linderman343 B)</b>
+        <a href="/index.html">info de leo</a>
+    </footer>
+   
+
+</body>
+</html>
