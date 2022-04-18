@@ -204,7 +204,7 @@ div > #kiruto {
     right: 10%;
     position: absolute;
 }
-li a, :hover, :after {
+li a, :hover {
     color:#f4fefd;
     text-decoration: none;
 
